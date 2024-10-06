@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #D8B4F8;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    max-width: 1250px;
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0.175);
+    border-radius: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    font-size: 1.2rem;
+    font-family: 'Oxygen Mono', monospace;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition-duration: 0.3s;
+}
+
+nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+}
+
+nav ul li {
+    text-transform: capitalize;
+}
+
+nav [class*="fa-"] {
+    font-size: 110%;
+    color: #9376E0;
+}
+
+a:hover {
+    color: #9376E0;
+    text-decoration: none;
+    scale: 1.1;
+}
+
+a:active {
+    color: rgba(255, 0, 162, 0.674);
+}
+
+section {
+    margin: 8rem 8.4rem 2rem;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 112, 241, 0.175);
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    margin: 1rem auto 0;
+    padding: 0.5rem;
+    background-color: #9276e06d;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+footer [class*="fa-"] {
+    color: #9376E0;
+}
+
+footer [class*="fa-"]:hover {
+    color: rgba(255, 0, 162, 0.674);
+    transition: 0.3s;
+}
+
+.orders{ color: #9376E0;}
+.bord{border: 6px solid burlywood;}
+.center{margin-left: auto; margin-right: auto;}
+.gridimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
